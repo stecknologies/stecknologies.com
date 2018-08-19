@@ -88,13 +88,17 @@ style.css
 	display:block;
 	margin: 0 auto;
 }
-
+i{
+	color:black;
+	margin:10px;
+}
 .left {
 		/*background: url(../img/homepageDesignDraft.jpg);*/
         opacity: 1;
         float: left;
         width: 50%;
         height:700px;
+        top:100px;
         background-size: cover;
         background-position:center;
 }
@@ -104,6 +108,7 @@ style.css
     float: right;
     width: 50%;
     height:700px;
+    top:100px;
     background-size: cover;
     background-position:center;
 }
@@ -123,7 +128,7 @@ style.css
 .overlay-left {
   position: absolute;
   float:left;
-  top: 0;
+  top:100px;
   bottom: 0;
   left: 0;
   height: 700px;
@@ -135,7 +140,7 @@ style.css
 .overlay-right {
   position: absolute;
   float:right;
-  top: 0;
+  top:100px;
   bottom: 0;
   right: 0;
   height: 700px;
@@ -178,7 +183,7 @@ style.css
   font-size: 36px;
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: 35%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

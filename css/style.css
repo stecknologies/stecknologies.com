@@ -90,7 +90,7 @@ style.css
 	top:50px;
 	right:50px;
 	bottom:50px;
-	background-image:url('../img/subwayBackground.jpg') !important;
+	background-image:url('../img/subwayDistortion.jpg') !important;
 	background-repeat:no-repeat;
 	background-size:100%;
 }
@@ -124,7 +124,6 @@ i{
 /*.workspacesImg{
 	background:url('../img/workspacesDraft.png');
 }*/
-
 #tag{
 	position: relative;
 	left:2rem;
@@ -140,7 +139,39 @@ i{
 #learnMore{
 	position:absolute;
 	right:15px;
-	top:5px;
+	top:15px;
 	color:black;
 }
 
+
+
+/* 
+	Overlay CSS
+*/
+
+.overlay{
+	height:100%;
+	width:0;
+	top:0;
+	left:0;
+	position:fixed;
+	background-color: rgba(0,0,0, 0.9);
+	color:white;
+	overflow-x: hidden;
+    transition: 0.5s;
+    z-index:1;
+
+}
+.overlay-container{
+	 position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top:50px;
+}
+#overlay-text{
+	font-size:20px;
+	font-weight:600;
+	color:white !important;
+	max-width:300px;
+}

@@ -7,7 +7,7 @@
  	  <meta name="author" content="Dylan Steck c/o Stecknologies">
   	<meta name="keywords" content="Stecknologies, Dylan Steck, tech, content, software, front end, keep dreaming">
   	<meta http-equiv="x-ua-compatible" content="ie=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    	<meta property="og:site_name" content="Stecknologies"/>
   	<meta property="og:title" content="Stecknologies | Home"/>
   	<meta property="og:image" content="img/SN-logo.jpg">
@@ -16,22 +16,30 @@
    	<link href="img/favicon.ico" rel="icon" type="image/x-icon">
 
     <link rel='stylesheet' href='css/style.css'/>
-<!--     <link rel='stylesheet' href='css/bootstrap.css'/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+    <link rel='stylesheet' href='css/bootstrap.css'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
   </head>
 	<body>
       <img class="sn-brand" src="img/icon.svg"/>
-      <p id="learnMore">Learn More</p>
+      <span id="learnMore" cursor:pointer onClick="triggerOverlay()">Learn More</span>
       <div class="background">
         <div class="container">
           <p id="tag">How can the online revolution power a vivid future? </p>
 
-          <p>Society has incredible ambitions for the future, but often sells itself short. Now, we have incredible technology at a revolutionary time that can help power serious change. <span>Let's make our dream world.</span></p>
 <!--             <div class="grid">
               <div class="dwcImg"></div>
               <div class="workspacesImg"></div>
           </div> -->
+      </div>
+    </div>
+
+    <div id="overlayId" class="overlay">
+      <div class="overlay-container">
+        <a href="javascript:void(0)"onclick="closeOverlay()" style="color:white">×</a>
+        <p id="overlay-text">Society has incredible ambitions for the future, but often sells itself short. Now, we have incredible technology at a revolutionary time that can help power serious change. <span>Let's make our dream world.</span></p>
       </div>
     </div>
 

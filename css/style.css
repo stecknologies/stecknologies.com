@@ -188,3 +188,27 @@ i{
 #project{
 	font-size:22px !important;
 }
+
+#image-credit{
+	position: absolute;
+	bottom:0;
+	right:15px;
+	color:white;
+	font-size:10px;
+}
+
+/* social */
+.social-icons{
+  list-style-type:none;
+  float:right;
+  position: absolute;
+  right:15px;
+  bottom:15px;
+}
+.social-icons li{
+  display:inline-block;
+  padding-right:25px;
+}
+.social-icons i{
+  color:white;
+}

@@ -113,27 +113,11 @@ i{
 	margin:10px;
 }
 
-.grid{
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 50px 30px 50px 30px 50px 30px;
-}
-
-.dwcImg{
-	position:relative;
-	left:50%;
-	background:url('../img/dwcDraft.jpg');
-	background-size:400px;
-	grid-column:1/ span 1;
-	grid-row:1/ span 6;
-}
-
-.workspacesImg{
-	background:url('../img/workspacesDraft.png');
-	background-size:400px;
-	background-position:0px;
-	grid-column:4;
-	grid-row:1/ span 3;
+#projectsGrouped{
+	position:absolute;
+	bottom:10%;
+	right:10%;
+	width:300px;
 }
 #tag{
 	position: relative;
@@ -212,3 +196,11 @@ i{
 .social-icons i{
   color:white;
 }
+
+.footer{
+	position:fixed;
+	bottom:0;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+

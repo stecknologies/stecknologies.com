@@ -86,14 +86,13 @@ style.css
 
 .background{
 	position: absolute;
-	left:50px;
-	top:50px;
-	right:50px;
-	bottom:50px;
+	margin:5vw;
+	width:90vw;
+	height:90vh;
 }
 .homeBackground{
 	background-image:url('../img/subwayDistortion.jpg') !important;
-	background-repeat:no-repeat;
+	/*background-repeat:no-repeat;*/
 	background-size:100%;
 }
 .aboutBackground{
@@ -117,13 +116,13 @@ i{
 	position:absolute;
 	bottom:10%;
 	right:10%;
-	width:300px;
+	width:30vw;
 }
 #tag{
 	position: relative;
 	left:2rem;
 	top:5rem;
-	font-size:80px;
+	font-size:5vw;
 	font-weight:bold;
 	color:white;
 	max-width:600px;
@@ -202,5 +201,9 @@ i{
 	bottom:0;
 	left:50%;
 	transform: translate(-50%, -50%);
+}
+
+@media max-width() {
+	
 }
 

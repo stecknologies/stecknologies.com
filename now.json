@@ -1,0 +1,11 @@
+{
+  "alias": ["stecknologies.com", "www.stecknologies.com"],
+  "routes": [
+    { "src": "/about", "dest": "/about.html" }
+  ],
+  "version": 2,
+  "public": true,
+  "github": {
+    "enabled": true
+  }
+}

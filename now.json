@@ -1,7 +1,7 @@
 {
   "alias": ["stecknologies.com", "www.stecknologies.com"],
   "routes": [
-    { "src": "/about", "dest": "/about.html" }
+    { "src": "/opusmage", "dest": "opusmage/index.html" }
   ],
   "version": 2,
   "public": true,

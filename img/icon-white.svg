@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="33px" viewBox="0 0 47 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OS-Site-Home-2" transform="translate(-25.000000, -25.000000)" fill="#FFFFFF">
+            <g id="Section-1">
+                <g id="Top" transform="translate(25.000000, 25.000000)">
+                    <g id="Logo">
+                        <g id="icon-white">
+                            <g id="Rectangle">
+                                <polygon transform="translate(10.702941, 16.430374) rotate(-117.000000) translate(-10.702941, -16.430374) " points="-5.82733324 12.6829138 27.2013617 12.825108 27.2332157 20.1778351 -5.79547921 20.0356409"></polygon>
+                                <polygon transform="translate(28.970339, 21.106347) rotate(-27.000000) translate(-28.970339, -21.106347) " points="11.0705878 17.1909079 46.9044726 17.0356657 46.8700909 25.0217865 11.0362062 25.1770287"></polygon>
+                                <polygon transform="translate(21.195161, 10.572143) rotate(-27.000000) translate(-21.195161, -10.572143) " points="12.1930409 6.61815632 30.2316621 6.54000807 30.1972805 14.5261288 12.1586593 14.6042771"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -17,35 +17,59 @@
 	font-style: normal;
 }
 /* Standard Settings and Variables */
-*{
+body{
 	font-family:"Basis Grotesque Pro", -apple-system, BlinkMacSystemFont, sans-serif;
   background: url('../img/Cortex_Landing_BG.jpg');
 }
 
-.logo{
+.top{
   position: absolute;
   left: 0;
   top: 0;
   margin: 5%;
+}
+.top img{
   width: 5vw;
 }
+.top p{
+  display: inline-block;
+  position: relative;
+  bottom: 2vh;
+  left: 1vw;
+  color: #e9e7e6;
+  font-weight: 600;
+  font-size: 1.75vw;
+}
 
-.intro-text h3{
+
+.intro-text h1{
   color: #D1CDC6;
-  font-size: 220%;
+  font-size: 250%;
+  max-width: 30vw;
 }
 .intro-text p{
-  color: #FDF9FD;
+  color: #e9e7e6;
   font-size: 100%;
+  max-width: 30vw;
 }
 .intro-placer{
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: block;
 }
+
+@media only screen and (max-width: 900px) {
+  .intro-text h3{
+    font-size: 150%;
+  }
+  .intro-text p{
+    font-size: 50%;
+  }
+}
+
 .left{
   left: 10%;
-  width: 30%;
+  width: 50%;
   position: relative;
   top: 25%;
   height: 50%;
@@ -63,22 +87,13 @@
   margin-top: 5%;
   float: right;
 }
-
-.download{
-  width: 75vw;
-  position: relative;
-  left: 10%;
-  margin-top: 5%;
-}
-
 .download p{
-  color: #FDF9FD;
-  font-weight: bold;
+  color: #e9e7e6;
+  /* font-weight: bold; */
 }
-.download h1{
+.download h3{
   color: #D1CDC6; /* gold */
   font-weight: medium;
-  float: left;
   display: inline-block;
 }
 
@@ -86,12 +101,12 @@
   display: inline-block;
   float: right;
   border: none;
-  border-radius: 12px;
+  border-radius: 1.2vw;
   background: #DDDBDA;
   color: white;
   width: 8vw;
   height: 4vw;
-  font-size: 100%;
+  font-size: 1.25vw;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -110,7 +125,7 @@
 
 .feature-text{
   max-width: 30vw;
-  color: #FDF9FD;
+  color: #e9e7e6;
   margin: 5%;
   margin-right: 25%;
   display: inline-block;
@@ -119,4 +134,18 @@
 
 .feature-bold{
   font-size: 200%;
+}
+
+.download-sect{
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.download-sect > i{
+  color: #e9e7e6;
+}
+
+.download-sect > p {
+  display: inline-block;
+  margin-left: 15px;
 }

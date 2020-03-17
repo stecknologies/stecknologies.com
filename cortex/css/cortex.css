@@ -1,0 +1,104 @@
+@font-face {
+	font-family:"Basis Grotesque Pro";
+	src: url('../../fonts/BasisGrotesquePro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:"Basis Grotesque Pro";
+	src: url('../../fonts/BasisGrotesquePro-Medium.otf') format('opentype');
+	font-weight: medium;
+	font-style: normal;
+}
+@font-face {
+	font-family:"Basis Grotesque Pro";
+	src: url('../../fonts/BasisGrotesquePro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+/* Standard Settings and Variables */
+*{
+	font-family:"Basis Grotesque Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: url('../img/Cortex_Landing_BG.jpg');
+}
+
+.logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 5%;
+  width: 5vw;
+}
+
+.intro-text h3{
+  color: #D1CDC6;
+  font-size: 220%;
+}
+.intro-text p{
+  color: #FDF9FD;
+  font-size: 100%;
+}
+.intro-placer{
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+.left{
+  left: 10%;
+  width: 30%;
+  position: relative;
+  top: 25%;
+  height: 50%;
+  float: left;
+}
+.right{
+  width: 60%;
+  height: 50%;
+  float: right;
+}
+
+.header{
+  max-width: 40vw;
+  margin-right: 5%;
+  margin-top: 5%;
+  float: right;
+}
+
+.download{
+  width: 75vw;
+  position: relative;
+  left: 10%;
+  margin-top: 5%;
+}
+
+.download p{
+  color: #FDF9FD;
+  font-weight: bold;
+}
+.download h1{
+  color: #D1CDC6; /* gold */
+  font-weight: medium;
+  float: left;
+  display: inline-block;
+}
+
+.download button{
+  display: inline-block;
+  float: right;
+  border: none;
+  border-radius: 12px;
+  background: #DDDBDA;
+  color: white;
+  width: 8vw;
+  height: 4vw;
+  font-size: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+.feature-img{
+  max-width: 33.333vw;
+  position: relative;
+  left: 5%;
+}

@@ -1,7 +1,7 @@
 {
   "alias": ["stecknologies.com", "www.stecknologies.com"],
   "routes": [
-    { "src": "/opusmage", "dest": "opusmage/index.html" }
+    { "src": "/cortex", "dest": "cortex/index.html" },
   ],
   "version": 2,
   "public": true,

@@ -96,9 +96,27 @@
   margin-bottom: 5%;
 }
 
+.feature{
+  width: 100vw;
+  height: 60vh;
+  margin: 10%;
+}
 
 .feature-img{
   max-width: 33.333vw;
-  position: relative;
-  left: 5%;
+  float: left;
+  display: inline-block;
+}
+
+.feature-text{
+  max-width: 30vw;
+  color: #FDF9FD;
+  margin: 5%;
+  margin-right: 25%;
+  display: inline-block;
+  float: right;
+}
+
+.feature-bold{
+  font-size: 200%;
 }

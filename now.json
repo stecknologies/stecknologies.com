@@ -1,8 +1,5 @@
 {
   "alias": ["stecknologies.com", "www.stecknologies.com"],
-  "routes": [
-    { "src": "/cortex", "dest": "cortex/index.html" },
-  ],
   "version": 2,
   "public": true,
   "github": {

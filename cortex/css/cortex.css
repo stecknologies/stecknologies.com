@@ -52,6 +52,18 @@ body{
   font-size: 100%;
   max-width: 30vw;
 }
+
+.intro-text button{
+  border: none;
+  border-radius: 1vw;
+  background: #DDDBDA;
+  color: #686868;
+	font-weight:600;
+  width: 12vw;
+  height: 4vw;
+  font-size: 1.25vw;
+}
+
 .intro-placer{
   width: 100vw;
   height: 80vh;
@@ -69,15 +81,15 @@ body{
 
 .left{
   left: 10%;
-  width: 50%;
+  width: 40%;
   position: relative;
   top: 25%;
-  height: 50%;
+  height: 40%;
   float: left;
 }
 .right{
-  width: 60%;
   height: 50%;
+	margin-right: 10%;
   float: right;
 }
 
@@ -97,42 +109,35 @@ body{
   display: inline-block;
 }
 
-.download button{
-  display: inline-block;
-  float: right;
-  border: none;
-  border-radius: 1.2vw;
-  background: #DDDBDA;
-  color: white;
-  width: 8vw;
-  height: 4vw;
-  font-size: 1.25vw;
-  text-align: center;
-  margin-bottom: 5%;
+.bottom-header{
+  color: #D1CDC6;
+  font-size: 250%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 5% !important;
 }
 
 .feature{
   width: 100vw;
   height: 60vh;
-  margin: 10%;
+  margin: 0 auto;
+	display: inline-block;
+	text-align: center;
 }
 
 .feature-img{
   max-width: 33.333vw;
-  float: left;
-  display: inline-block;
+	margin-bottom: 5%;
+	margin-top: 1%;
 }
 
 .feature-text{
   max-width: 30vw;
   color: #e9e7e6;
-  margin: 5%;
-  margin-right: 25%;
-  display: inline-block;
-  float: right;
+	margin-left: 35%;
 }
 
-.feature-bold{
+.feature-tagline{
   font-size: 200%;
 }
 

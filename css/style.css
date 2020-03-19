@@ -78,9 +78,9 @@ html, body{
 	margin-top:5%;
 }
 
-#actions{
-	background:url('../img/actions-banner.png');
-	background-size:90%;
+#cortex{
+	background:url('../img/cortex-banner.png');
+	background-size:100%;
 	float:left
 }
 #founder{

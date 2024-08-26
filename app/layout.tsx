@@ -6,6 +6,13 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Stecknologies",
   description: "The official homepage of Stecknologies, Inc.",
+  openGraph: {
+    type: 'website',
+    'title': "Stecknologies",
+    description: "The official homepage of Stecknologies, Inc.",
+    siteName: "Stecknologies",
+    images: ['https://i.imgur.com/279yiU7.png']
+  }
 };
 
 export default function RootLayout({

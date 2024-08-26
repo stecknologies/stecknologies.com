@@ -6,8 +6,8 @@ import { Drawer } from "vaul";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center relative p-4">
-      <div className="flex-grow flex items-center justify-center">
-        <StecknologiesLogo />
+      <div className="flex-grow flex items-center justify-center w-full">
+        <StecknologiesLogo className="max-w-full max-h-full" />
       </div>
       <div className="w-full flex justify-between items-center px-6 pb-4 absolute bottom-0 left-0 right-0">
         <p className="text-lg font-light">Stecknologies, Inc.</p>

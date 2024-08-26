@@ -8,6 +8,19 @@ const nextConfig = {
   
       return config;
     },
+    images: {
+      domains: [
+        'i.imgur.com',
+      ],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'i.imgur.com',
+          port: '',
+          pathname: '/**',
+        },
+      ],
+    },
 };
 
 export default nextConfig;

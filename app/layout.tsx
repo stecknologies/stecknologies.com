@@ -26,6 +26,7 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="shortcut icon" href="/favicon.ico" />
+        <meta property="og:url" content="https://stecknologies.com" />
       </Head>
       <Script
         strategy="lazyOnload"
